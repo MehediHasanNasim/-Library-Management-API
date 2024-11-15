@@ -1,0 +1,19 @@
+# Ignore .env file
+.env
+
+# Ignore env/ directory
+env/
+
+# Byte-compiled files
+*.pyc
+__pycache__/
+
+# Django-specific
+db.sqlite3
+/static/
+media/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
